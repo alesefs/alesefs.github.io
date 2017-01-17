@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta http-equiv="Content-Type" content="text/html;" />
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	    <meta name="msapplication-TileColor" content="#175576">
+	    <meta name="msapplication-navbutton-color" content="#175576">
+	    <meta name="theme-color" content="#175576">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	    <!--fonts-->
+		<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />-->
+		
+
+		<!--libs-->
+	    <!--<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>-->
+	    <!--<script src="http://i18next.com/public/download/latest/i18next.js"></script>-->
+	    <link rel="stylesheet" href="font-awesome-4/css/font-awesome.min.css" />
+	    <script type="text/javascript" src="jquery.min.js"></script>
+	    <script type="text/javascript" src="locales/i18next-1.7.7.min.js"></script>
+
+	    <!--styles-->
+		<style type="text/css">
+
+			@font-face{ 
+				font-family: 'aaargh_normal_macroman';
+				src: url('webfonts/aaargh_normal_macroman/Aaargh-webfont.eot');
+				src: url('webfonts/aaargh_normal_macroman/Aaargh-webfont.eot?iefix') format('eot'),
+				     url('webfonts/aaargh_normal_macroman/Aaargh-webfont.woff') format('woff'),
+				     url('webfonts/aaargh_normal_macroman/Aaargh-webfont.ttf') format('truetype'),
+				     url('webfonts/aaargh_normal_macroman/Aaargh-webfont.svg#webfont') format('svg');
+			}
+
+			body{background-color: #175576; color: white; font-family: 'aaargh_normal_macroman', 'Open Sans', Helvetica, sans-serif; font-weight: 200;}
+			/*body{background-color: #175576; color: white; font-family: 'Open Sans', sans-serif;}*/
+			/*body{background-image:linear-gradient(to right, #F41792, #F01F1D); color: white; font-family: 'Open Sans', sans-serif;}*/
+			/*body{background-color: #175576; color: white; font-family: Helvetica, sans-serif; font-weight: 200;}*/
+			
+			#home, #works, /*#contact,*/ #footer{margin: 7.5em 5em;}
+
+			.content-home{margin-top: 2em;}
+			.content-works{margin: 3em 3em; /*float: left;*/}
+
+			hr{background-color: #2C7397; width: 100%; height: 5px; box-shadow: 0 0 0 0; border: 0 none; outline: 0;}
+
+			.meta-link, .meta-link a{color: yellow; text-decoration: none; -moz-transition:all .3s linear; -webkit-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+			.meta-link:hover{color: orangered;}
+			.meta-link a:hover{color: white;}
+
+			.meta-icon{color: cyan; -moz-transition:all .3s linear; -webkit-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+			.meta-icon:hover{color: white;}
+			
+			.font10{font-size: 10pt; line-height: 1em;}
+			.font12{font-size: 12pt; line-height: 1em;}
+			.font14{font-size: 14pt; line-height: 1em;}
+			.font16{font-size: 16pt; line-height: 1em;}
+			.font20{font-size: 20pt; line-height: 1em;}
+			.font24{font-size: 24pt; line-height: 1em;}
+			.font36{font-size: 36pt; line-height: 1em;}
+
+
+			.work-key{background-color: ghostwhite; width: 12em; height: 25em; float: left; margin: 1.5em 1.5em; -moz-transition:all .3s linear; -webkit-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+			a .work-key:hover{background-color: #E0E0E0;}
+	
+			.img-rect{width: 90%; height: 10em; padding: 5% 5%; background-color: #ff3;}
+
+			#echo{background: url(img/echo.png) no-repeat center; background-size: 100% 100%;}
+			#dhaw{background: url(img/dhaw.png) no-repeat center; background-size: 100% 100%;}
+			#sekai{background: url(img/sekai.png) no-repeat center; background-size: 100% 100%;}
+			#gluup{background: url(img/gluup.png) no-repeat center; background-size: 100% 100%;}
+			
+			.title-rect{width: 90%; background-color: #c0c0c0; color: #333; padding: 5% 5%; text-align: center;}
+			
+			.txt-rect{width: 90%; color: #333; padding: 5% 5%; text-align: left;}
+
+
+			/*#contact-title{width: 88%; height: auto !important; float: left;}
+			#closed{width: 8%; height: auto !important; float: left; margin-left: 1%; margin-bottom: 1.5%;}
+			.fechar{text-decoration: none; text-align: center; background-color: white; color: red; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; padding: 0.1em 0.5em; -moz-transition:all .3s linear; -webkit-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+			.fechar:hover{background-color: red; color: white;}
+
+			
+			#form{width: 90%; margin: 5% 5%;}
+
+			.form-name, .form-mail, .btn-submit{width: 37.5%; height: 3em; margin: 2.5% 4.5%; padding-left: 3%;}
+
+			.form-msg{width: 85%; height: 6em; margin: 1% 4.5%; padding: 2% 3%;}
+			
+			.form-border{box-shadow: 0 0 0 0; border: 0 none; outline: 0;}
+			
+			textarea{resize: none;}
+			
+			.btn-submit{background-color: #00AC00; color: white; width: 41%; margin-left: 54.5%; -moz-transition:all .3s linear; -webkit-transition:all .3s linear; -ms-transition:all .3s linear; transition:all .3s linear;}
+			
+			.btn-submit:hover{background-color: #f80010; color: white;}*/
+
+ 
+			#footer { width: 80%; top: 3em; float: left;}
+			.footer-left{width:50%; text-align: left; }
+			.footer-right{width: 50%; text-align: left; }
+
+			#header{width: 40%; height: 10%; padding-left: 60%;}
+			.lang_flag_pt{background: url(img/portugues.gif) no-repeat center;}
+			.lang_flag_en{background: url(img/english.gif) no-repeat center;}
+			.lang_flag_es{background: url(img/espanol.gif) no-repeat center;}
+			#header a{text-decoration: none; background-size: 24px 17px;}
+			#header a:hover{border: 1px solid ghostwhite; background-size: 100% 100%;}
+
+
+
+			@media screen and (min-width: 601px) and (max-width: 900px) {
+				
+				#home, #works, /*#contact,*/ #footer{margin: 10em 5em;}
+
+				.work-key{margin: 1em 1em;}
+
+				/*.form-name, .form-mail, .btn-submit{width: 90%; height: 3em; margin: 2.5% 4.5%;}
+				.form-msg{width: 87.5%;}
+				.btn-submit{width: 94%;}*/
+			}
+
+
+
+			@media screen and (min-width: 481px) and (max-width: 600px) {
+				
+				#home, #works, /*#contact,*/ #footer{margin: 5em 2em;}
+
+				.font10{font-size: 8pt; line-height: 1em;}
+				.font12{font-size: 10pt; line-height: 1em;}
+				.font14{font-size: 12pt; line-height: 1em;}
+				.font16{font-size: 14pt; line-height: 1em;}
+				.font20{font-size: 16pt; line-height: 1em;}
+				.font24{font-size: 18pt; line-height: 1em;}
+				.font36{font-size: 26pt; line-height: 1em;}
+
+				.work-key{width: 15em; margin: 1em 1em;}
+
+				/*.form-name, .form-mail, .btn-submit{width: 15em; height: 3em; margin: 2.5% 4.5%;}
+				.form-msg{width: 87.5%;}
+				.btn-submit{width: 94%;}*/
+			}
+
+
+
+			@media screen and (min-width: 321px) and (max-width: 480px) {
+				
+				#home, #works, /*#contact,*/ #footer{margin: 5em 2em;}
+				#header{width: 50%; height: 10%; padding-left: 50%;}
+
+				.font10{font-size: 8pt; line-height: 1em;}
+				.font12{font-size: 10pt; line-height: 1em;}
+				.font14{font-size: 12pt; line-height: 1em;}
+				.font16{font-size: 14pt; line-height: 1em;}
+				.font20{font-size: 16pt; line-height: 1em;}
+				.font24{font-size: 18pt; line-height: 1em;}
+				.font36{font-size: 26pt; line-height: 1em;}
+
+				.work-key{width: 15em; margin: 1em -1.5em;}
+
+				/*.form-name, .form-mail, .btn-submit{width: 90%; height: 3em; margin: 2.5% 4.5%;}
+				.form-msg{width: 87.5%;}
+				.btn-submit{width: 94%;}*/
+			}
+
+			@media screen and (max-width: 320px) {
+				
+				#home, #works, /*#contact,*/ #footer{margin: 5em 2em;}
+				#header{width: 60%; height: 10%; padding-left: 40%;}
+
+				.font10{font-size: 8pt; line-height: 1em;}
+				.font12{font-size: 10pt; line-height: 1em;}
+				.font14{font-size: 12pt; line-height: 1em;}
+				.font16{font-size: 14pt; line-height: 1em;}
+				.font20{font-size: 16pt; line-height: 1em;}
+				.font24{font-size: 18pt; line-height: 1em;}
+				.font36{font-size: 26pt; line-height: 1em;}
+
+				.work-key{width: 15em; margin: 1em -3em;}
+
+				/*.form-name, .form-mail, .btn-submit{width: 90%; height: 3em; margin: 2.5% 4.5%;}
+				.form-msg{width: 87.5%;}
+				.btn-submit{width: 94%;}*/
+			}
+
+
+		</style>
+
+		<!--scripts-->
+		<!-- <script type="text/javascript">
+			function valida(form){
+	            if(document.form.nome.value == ""){
+	                alert("O nome não foi preenchido.");
+	                document.form.nome.focus(); correto = false;
+	            }
+	            else if(document.form.e_mail.value == ""){
+	                alert("O e-mail não foi preenchido.");
+	                document.form.e_mail.focus(); correto = false;
+	            }
+	            else if(document.form.mensagem.value == ""){
+	                alert("Deve conter alguma mensagem");
+	                document.form.mensagem.focus(); correto = false;
+	            }
+	            else{
+	                document.form.submit();
+	            }
+	        }
+		</script> -->
+
+	</head>
+
+	<body>
+		
+		<div id="header">
+			<span class="font12" data-i18n="header.language"></span>
+			<br/>
+			<a href="#" class="lang_flag_pt" id="btn-pt" data-i18n="button.pt">
+			&nbsp;&nbsp;&nbsp;
+			</a>
+			<a href="#" class="lang_flag_en" id="btn-en" data-i18n="button.en">
+			&nbsp;&nbsp;&nbsp;
+			</a>
+			<a href="#" class="lang_flag_es" id="btn-es" data-i18n="button.es">
+			&nbsp;&nbsp;&nbsp;
+			</a>
+			<span class="font12"> ←┘ </span>
+		</div>
+
+		<section id="home">
+			<span class="font20" data-i18n="home.intro"></span>
+			<hr/>
+			<div class="content-home">
+				<span class="font12" data-i18n="home.a"></span> <br/>
+				<span class="font36"> ALESSANDRO <br/> EMANUEL. </span> <br/>
+				<span class="font16" data-i18n="home.b"></span> <br/>
+				<span class="font24" data-i18n="home.c"></span> <br/>
+				<span class="font16" data-i18n="home.d"></span><span class="font20"> AS3, HTML5, Unity3D etc. </span> <br/>
+				<span class="font14" data-i18n="home.e"></span> <br/>
+				<span class="font20" data-i18n="home.f"></span> <br/>
+				<br/>
+		        <span class="font16 meta-link">
+	        		<a href="https://www.facebook.com/alesefs" target="_blank"><span class="fa fa-facebook meta-icon"></span></a> 
+	        		<a href="https://www.linkedin.com/pub/alessandro-emanuel/32/ba1/144" target="_blank"><span class="fa fa-linkedin meta-icon"></span></a>
+	        		<a href="https://alesefs.wordpress.com/" target="_blank"><span class="fa fa-wordpress meta-icon"></span></a>
+		        </span>	
+		        <span class="meta-link">
+		        	<span class="font16"><a class="fa fa-envelope" href="mailto:alesefs@gmail.com"><span class="font12"> ALESEFS@GMAIL.COM</span></a></span>
+		       	</span>
+		    </div>
+		</section>
+
+		<section id="works">
+			<span class="font20" data-i18n="home.works"></span>
+			<hr/>
+			<div class="content-works">
+				<a href="http://echostudio.co.nf/" target="_blank">
+					<div class="work-key">
+						<div class="img-rect" id="echo"></div>
+						<div class="title-rect font16"> Echo Studio </div>
+						<div class="txt-rect">
+							<span class="font14" data-i18n="home.g"></span> <br/>
+							<hr/>
+							<span class="font12">
+							Game-Dev: AS3, HTML5 e Android; <br/>
+							Front-End-Dev; <br/>
+							Sound Design. </span>
+						</div>
+					</div>
+				</a>
+				<a href="http://dhaw.co.nf/" target="_blank">
+					<div class="work-key">
+						<div class="img-rect" id="dhaw"></div>
+						<div class="title-rect font16"> D H A W </div>
+						<div class="txt-rect">
+							<span class="font14" data-i18n="home.g"></span> <br/>
+							<hr/>
+							<span class="font12"> 
+								Game-Dev: AS3, HTML5;<br/>
+								Front-End-Dev; <br/>
+								Sound Design. </span>
+						</div>
+					</div>
+				</a>
+				<a href="http://thesekai.co.nf/" target="_blank">
+					<div class="work-key">
+						<div class="img-rect" id="sekai"></div>
+						<div class="title-rect font16"> The Sekai </div>
+						<div class="txt-rect">
+							<span class="font14" data-i18n="home.g"></span> <br/>
+							<hr/>
+							<span class="font12"> 
+								Game-Dev: AS3; <br/>
+								Sound Design; <br/>
+								Front-End-Dev.</span>
+								<br/>
+						</div>
+					</div>
+				</a>
+				<a href="http://gamegluup.wix.com/gluup" target="_blank">
+					<div class="work-key">
+						<div class="img-rect" id="gluup"></div>
+						<div class="title-rect font16"> GLUUP </div>
+						<div class="txt-rect">
+							<span class="font14" data-i18n="home.g"></span> <br/>
+							<hr/>
+							<span class="font12"> 
+								Game-Dev: android; <br/>
+								Sound Design; <br/>
+								Sketch Artist 2D.</span>
+								<br/>
+						</div>
+					</div>
+				</a>
+				<br/>
+				<!-- quando criar o protifolio libera -->
+				<!-- <span>&nbsp;</span><br/>
+				<span>&nbsp;</span><br/>
+				<span class="font16"> PORTFOLIO </span>
+				<hr/>
+				<br/>
+				<span>&nbsp;</span><br/>
+				<span>&nbsp;</span><br/> -->
+			</div>
+		</section>
+
+		<!-- <section id="contact">
+			<span class="font20" id="contact-title" data-i18n="home.contact"></span>
+			<hr/>
+			<div id="form">
+				<form id="me-form" method="post" action="contatos.php" onsubmit="return valida(this);">
+					
+					
+					<input class="form-name form-border font12" type="text" name="nome" id="nome" placeholder="" data-i18n="[placeholder]home.name" required="required" value""/>
+
+                	<input class="form-mail form-border font12" type="email" name="e_mail" id="e_mail" placeholder="" data-i18n="[placeholder]home.mail" required="required" value="" />
+
+                	<br />
+
+                	<textarea class="form-msg form-border font12" name="mensagem" id="mensagem" rows="4" cols="6" placeholder="" data-i18n="[placeholder]home.msg" required="required" value=""></textarea>
+
+                	<input class="btn-submit form-border font12" type="submit" name="submit" data-i18n="[value]home.submit" value=""/>
+
+				</form>
+			</div>
+		</section> -->
+
+		<section id="footer">
+			<span>&nbsp;</span>
+			<hr/>
+			<span class="font10 footer-left" data-i18n="home.footer"></span> <br/>
+				<span class="font12 meta-link">
+					<a href="https://www.facebook.com/alesefs" target="_blank"><span class="fa fa-facebook meta-icon"></span></a> &nbsp;  
+	        		<a href="https://www.linkedin.com/pub/alessandro-emanuel/32/ba1/144" target="_blank"><span class="fa fa-linkedin meta-icon"></span></a> &nbsp;
+	        		<a href="https://alesefs.wordpress.com/" target="_blank"><span class="fa fa-wordpress meta-icon"></span></a> &nbsp;
+		        </span>	
+		        <span class="meta-link">
+		        	<span class="font12"><a class="fa fa-envelope" href="mailto:alesefs@gmail.com"><span class="font10"> ALESEFS@GMAIL.COM</span></a></span>
+		       	</span>
+			</span>
+		</section>
+
+		<script>
+			// Iniciando a lib
+			i18n.init({fallbackLng: false, debug: true, fixLng: true, load: 'current'},
+
+			function(translation) {$('[data-i18n]').i18n(); var appName = translation('app.name');});
+
+			// espanhol
+			$('#btn-es').on('click', function() {i18n.setLng('es', {fixLng: true}, function(translation){$('[data-i18n]').i18n();});});
+
+			// inglês
+			$('#btn-en').on('click', function() {i18n.setLng('en-US', {fixLng: true}, function(translation){$('[data-i18n]').i18n();});});
+
+			// português
+			$('#btn-pt').on('click', function() {i18n.setLng('pt-BR', {fixLng: true}, function(translation){$('[data-i18n]').i18n();});});
+		</script>
+	</body>
+</html>
