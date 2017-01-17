@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"header":{
+    "language": "Choose your language!"
+  }
+  ,"home":{
+    "intro": "INTRODUCTION",
+    "a": "Hello world! I'm",
+    "b": "Live in Recife - PE - Brazil.",
+    "c": "I'm Game-Dev, App-Dev & Front-end-Dev,",
+    "d": "work with: ",
+    "e": "I also do",
+    "f": "Artifacts and animations 2D and 3D.",
+    "works": "WORKS",
+    "g": "Functions: ",
+    "contact": "CONTACTS",
+    "footer": "Rights to: Alessandro Emanuel | alesefs.kissr.com",
+    "name": "NAME",
+    "mail": "E-MAIL",
+    "msg": "MESSAGE",
+    "submit": "SUBMIT"
+  }
+}
