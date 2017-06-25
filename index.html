@@ -386,5 +386,17 @@
 			// português
 			$('#btn-pt').on('click', function() {i18n.setLng('pt-BR', {fixLng: true}, function(translation){$('[data-i18n]').i18n();});});
 		</script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-101650013-1', 'auto');
+		  ga('send', 'pageview');
+		  ga('set', 'userId', 'UA-101650013-1'); // Defina o ID de usuário usando o user_id conectado.
+
+		</script>
 	</body>
 </html>
