@@ -463,26 +463,26 @@ a.text-card {
     background: -moz-linear-gradient(to right bottom, #252525, #505050); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right bottom, #252525, #505050);
     
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+    filter: sepia(100%);
 }
 
 .echo:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+    -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+    filter: sepia(0%);
 }
 
 #echo {
     background: url(../imgs/echo-cor.png) no-repeat center;
     background-size: 80%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+    filter: sepia(100%);
 }
 
 #echo:hover, .echo:hover #echo {
     background-size: 90%;
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+    -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+    filter: sepia(0%);
 }
 
 
@@ -776,14 +776,14 @@ a.text-card {
     
     
     .echo {
-        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(0%);
+        -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+        filter: sepia(0%);
     }
 
     #echo {
         background-size: 80%;
-        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(0%);
+        -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+        filter: sepia(0%);
     }
 
     
