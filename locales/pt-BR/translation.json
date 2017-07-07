@@ -1,25 +1,49 @@
 {
-  "app": {
-    "name" : "i18next"
-  }
-  ,"header":{
-    "language": "Escolha seu idioma!"
-  }
-  ,"home":{
-    "intro": "APRESENTACÃO",
-    "a": "Olá Mundo! Sou",
-    "b": "Moro em Recife - PE - Brasil.",
-    "c": "Sou Desenvolvedor de Games, Apps & Front-End,",
-    "d": "trabalho com: ",
-    "e": "mas também trabalho com:",
-    "f": "animações 2D e 3D e UX design.",
-    "works": "TRABALHOS",
-    "g": "Funcões: ",
-    "contact": "CONTATOS",
-    "footer": "Direitos à: Alessandro Emanuel | alesefs.com",
-    "name": "NOME",
-    "mail": "E-MAIL",
-    "msg": "MENSAGEM",
-    "submit": "ENVIAR"
-  }
+    "app": {
+        "name" : "i18next"
+    }
+    ,"section": {
+        "intro": "SOBRE",
+        "works": "TRABALHOS"
+    }
+    ,"about": {
+        "hello": "Olá mundo! Eu sou",
+        "live": "moro em Recife - Brasil.",
+        "dev": "Desenvolvedor de: ",
+        "job": "Atualmente trabalhando na ",
+        "main": "Principais habilidades: ",
+        "others": "Outras habilidades: ",
+        "todo": "Animações em 2D/3D, UI/UX Design e alguns brandings.",
+        "contact": "CONTATE-ME:"
+    }
+    ,"card": {
+        "role": "FUNÇÃO",
+        "task": "TAREFA",
+        "focus": "FOCO",
+        "echo": "Fazer games em AS3 Flixel, Java Android.",
+        "dhaw": "Fazer games em AS3 Flixel, HTML5 Phaser.",
+        "gluup": "Fazer game em Java Android para auxílio à fisioterapia.",
+        "sekai": "Fazer games em AS3 Flixel",
+        "irena1": "Estagiário / Engenheiro de Software",
+        "irena2": "Preencher bancos de dados, auxílio ao design e na operação do produto."
+    }
+    ,"title": {
+        "reset": "Refresh.",
+        "eng": "tradução do site para inglês.",
+        "bra": "tradução do site para português do Brasil.",
+        "about": "Introdução. Olá mundo! Eu sou ALESSANDRO EMANUEL, moro em Recife - Brasil. Desenvolvedor de games, aplicativos e websites (front-end). Atualmente eu trabalho na viishapps. minhas principais habilidades são: HTML5, JS/JQuery, CSS3, swift para iOS, Java para Android, C# para Unity e win mobile. minhas outras habilidades são: animações em 2D/3D, UI/UX design e alguns brandings.",
+        "face": "Minha página no Facebook",
+        "insta": "Minha página no Instagram",
+        "linked": "Minha página no Linkedin",
+        "mail": "Meu E-Mail - alesefs@gmail.com",
+        "end": "Direitos Alessandro Emanuel. Aqui é o fim da página"
+    }
+    ,"works": {
+        "echo": "Echo Studio Games. Minha função: Desenvolvedor Web e de games. Minhas tarefas: desenvolver games em AS3-flixel e Java-Android. Foco: games para Web, android e blackberry. clique para abrir o site Echo Studio.",
+        "dhaw": "DHAW. Minha função: Desenvolvedor Web e de games. Minhas tarefas: desenvolver games em AS3-flixel e HTML5-Phaser. Foco: games para Web. clique para abrir o site DHAW.",
+        "gluup": "Gluup. Minha função: Desenvolvedor do games. Minhas tarefas: desenvolver game em java-android para auxílio à fisioterapia. Foco: game para android. clique para abrir o site Gluup.",
+        "sekai": "The Sekai. Minha função: Desenvolvedor Web e de games. Minhas tarefas: desenvolver games em AS3-flixel. Foco: games para Web. clique para abrir o site The Sekai.",
+        "viish": "Viish Apps. Minha função: C.E.O and multi-tarefas. Minhas tarefas: desenvolver jogos e aplicativos para web e mobile. Foco: jogos e aplicativos mobile. clique para abrir o site ViishApps.",
+        "irena": "iRena app. Minha função: Estagiário - Engenheiro de Software. Minhas tarefas: Preencher bancos de dados, auxílio ao design e na operação do produto. Foco: Aplicativo Mobile para Android and iOS sobre futebol. click for open irena's site."
+    }
 }

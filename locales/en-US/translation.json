@@ -1,25 +1,49 @@
 {
-  "app": {
-    "name" : "i18next"
-  }
-  ,"header":{
-    "language": "Choose your language!"
-  }
-  ,"home":{
-    "intro": "INTRODUCTION",
-    "a": "Hello world! I'm",
-    "b": "Live in Recife - PE - Brazil.",
-    "c": "I'm Game-Dev, App-Dev & Front-end-Dev,",
-    "d": "work with: ",
-    "e": "but also work with:",
-    "f": "2D and 3D animations and UX design.",
-    "works": "WORKS",
-    "g": "Functions: ",
-    "contact": "CONTACTS",
-    "footer": "Rights to: Alessandro Emanuel | alesefs.com",
-    "name": "NAME",
-    "mail": "E-MAIL",
-    "msg": "MESSAGE",
-    "submit": "SUBMIT"
-  }
+    "app": {
+        "name" : "i18next"
+    }
+    ,"section":{
+        "intro": "ABOUT",
+        "works": "WORKS"
+    }
+    ,"about": {
+        "hello": "Hello World! I'm",
+        "live": "live in Recife - Brazil.",
+        "dev": "Developer from: ",
+        "job": "Currently working in ",
+        "main": "Main skills:",
+        "others": "Others skills: ",
+        "todo": "2D/3D animations, UI/UX design and some brandings.",
+        "contact": "CONTACT ME:"    
+    }
+    ,"card": {
+        "role": "ROLE",
+        "task": "TASK",
+        "focus": "FOCUS",
+        "echo": "Dev games in AS3 Flixel, Java Android.",
+        "dhaw": "Dev games in AS3 Flixel, HTML5 Phaser.",
+        "gluup": "Dev games in Java Android for aid to physiotherapy.",
+        "sekai": "Dev games in AS3 Flixel",
+        "irena1": "Intern / Software Engineer",
+        "irena2": "Fill databases, assistance to the design and operation of the product."
+    }
+    ,"title": {
+        "reset": "Refresh.",
+        "eng": "Translation of the website into English.",
+        "bra": "Translation of the website into Brazil's Portuguese.",
+        "about": "Introduction. Hello World! I'm ALESSANDRO EMANUEL, live in Recife - Brazil. Developer from: games, apps and website (front-end). Currently working in ViishApps. My main skills are: HTML5, JS/JQuery, CSS3, swift for iOS, java for android, C# for unity and win mobile. my others skills are: 2D/3D animations, UI/UX design and some brandings.",
+        "face": "My Facebook page",
+        "insta": "My Instagram page",
+        "linked": "My Linkedin page",
+        "mail": "My E-Mail - alesefs@gmail.com",
+        "end": "Rights Alessandro Emanuel. Here is the end of page"
+    }
+    ,"works": {
+        "echo": "Echo Studio Games. My role: Web and Game Developer. My tasks: develop games in AS3-flixel and Java-Android. Focus: Web, android and blackberry games. click for open Echo Studio's site.",
+        "dhaw": "DHAW. My role: Web and Game Developer. My tasks: develop games in AS3-flixel and HTML5-Phaser. Focus: Web games. click for open dhaw's site.",
+        "gluup": "Gluup. My role: Game Developer. My tasks: develop games in java-android for aid to physiotherapy. Focus: mobile game. click for open gluup's site.",
+        "sekai": "The Sekai. My role: Web and Game Developer. My tasks: develop games in AS3-flixel. Focus: Web games. click for open the sekai's site.",
+        "viish": "Viish Apps. My role: C.E.O and mult task. My tasks: develop games and apps for Web and Mobile. Focus: mobile games and apps. click for open viishapps's site.",
+        "irena": "iRena app. My role: Intern - Software Engineer. My tasks: Fill databases, assistance to the design and operation of the product. Focus: Mobile apps for Android and iOS about soccer. click for open irena's site."
+    }
 }
