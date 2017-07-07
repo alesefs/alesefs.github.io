@@ -479,12 +479,16 @@ a.text-card {
     filter: sepia(100%);
 }
 
-#echo:hover, .echo:hover #echo {
+#echo:hover, .echo0:hover #echo {
     background-size: 90%;
     -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
     filter: sepia(0%);
 }
 
+.echo0:hover .echo {
+    -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+    filter: sepia(0%);
+}
 
 
 
@@ -512,13 +516,16 @@ a.text-card {
     filter: grayscale(100%);
 }
 
-#dhaw:hover, .dhaw:hover #dhaw {
+#dhaw:hover, .dhaw0:hover #dhaw {
     background-size: 80%;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
-
+.dhaw0:hover .dhaw {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
 
 
 
@@ -545,13 +552,16 @@ a.text-card {
     filter: grayscale(100%);
 }
 
-#gluup:hover, .gluup:hover #gluup {
+#gluup:hover, .gluup0:hover #gluup {
     background-size: 80%;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
-
+.gluup0:hover .gluup {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
 
 
 
@@ -578,13 +588,51 @@ a.text-card {
     filter: grayscale(100%);
 }
 
-#sekai:hover, .sekai:hover #sekai {
+#sekai:hover, .sekai0:hover #sekai {
     background-size: 70%;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
+.sekai0:hover .sekai {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
 
+
+.irena {
+    background-color: #4CDA64;
+    background: -webkit-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55);
+    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.irena:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+#irena {
+    background: url(../imgs/irena-cor.png) no-repeat center;
+    background-size: 70%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#irena:hover, .irena0:hover #irena {
+    background-size: 80%;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.irena0:hover .irena {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
 
 
 
@@ -611,46 +659,16 @@ a.text-card {
     filter: grayscale(100%);
 }
 
-#viish:hover, .viish:hover #viish {
+#viish:hover, .viish0:hover #viish {
     background-size: 40%;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
-
-
-
-
-.irena {
-    background-color: #4CDA64;
-    background: -webkit-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left top, #4CDA64, #4CDA64, #BADA55);
-    
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.irena:hover {
+.viish0:hover .viish {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
-
-#irena {
-    background: url(../imgs/irena-cor.png) no-repeat center;
-    background-size: 70%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-#irena:hover, .irena:hover #irena {
-    background-size: 80%;
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-}
-
-
 
 
 .clear {
@@ -825,6 +843,17 @@ a.text-card {
         filter: grayscale(0%);
     }
     
+          
+    .irena {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+    
+    #irena {
+        background-size: 60%;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
     
     
     .viish {
@@ -838,18 +867,6 @@ a.text-card {
         filter: grayscale(0%);
     }
     
-    
-    
-    .irena {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-    
-    #irena {
-        background-size: 60%;
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
 }
 
 
