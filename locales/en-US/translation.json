@@ -37,8 +37,10 @@
         "linked": "My Linkedin page",
         "mail": "My E-Mail - alesefs@gmail.com",
         "end": "Rights Alessandro Emanuel. Here is the end of page",
-        "noscript": "Your browser does not support JavaScript!",
-        "nojs": "Your browser does not support JavaScript!"
+        "noscript": "Your browser does not support JavaScript or JavaScript is blocked!",
+        "nojs": "Your browser does not support JavaScript or JavaScript is blocked!",
+        "loading": "LOADING, PLEASE WAIT...",
+        "loadtxt": "LOADING, PLEASE WAIT..."
     }
     ,"works": {
         "echo": "Echo Studio Games. My role: Web and Game Developer. My tasks: develop games in AS3-flixel and Java-Android. Focus: Web, android and blackberry games. click for open Echo Studio's site.",
