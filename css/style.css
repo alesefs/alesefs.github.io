@@ -498,6 +498,11 @@ a.text-card {
     border-radius: 15px;
 }
 
+.echo0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
+}
+
 
 
 .dhaw {
@@ -540,6 +545,11 @@ a.text-card {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
+}
+
+.dhaw0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
 }
 
 
@@ -586,6 +596,12 @@ a.text-card {
     border-radius: 15px;
 }
 
+.gluup0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
+}
+
+
 
 .sekai {
     background-color: CornFlowerBlue;
@@ -629,6 +645,10 @@ a.text-card {
     border-radius: 15px;
 }
 
+.sekai0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
+}
 
 
 .irena {
@@ -671,6 +691,11 @@ a.text-card {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
+}
+
+.irena0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
 }
 
 
@@ -717,6 +742,10 @@ a.text-card {
     border-radius: 15px;
 }
 
+.viish0:active .site-card {
+    color: ghostwhite;
+    background-color: orangered;
+}
 
 
 .clear {
@@ -849,11 +878,6 @@ a.text-card {
         background-size: 80%;
         -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
         filter: sepia(0%);
-    }
-
-    .echo0:active .site-card {
-        color: ghostwhite;
-        background-color: orangered;
     }
     
   
