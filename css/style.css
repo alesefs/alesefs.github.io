@@ -490,6 +490,13 @@ a.text-card {
     filter: sepia(0%);
 }
 
+.echo0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
 
 
 
@@ -525,6 +532,14 @@ a.text-card {
 .dhaw0:hover .dhaw {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+}
+
+.dhaw0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
 }
 
 
@@ -563,14 +578,21 @@ a.text-card {
     filter: grayscale(0%);
 }
 
+.gluup0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
 
 
 .sekai {
     background-color: CornFlowerBlue;
-    background: -webkit-linear-gradient(to bottom, dodgerblue, CornFlowerBlue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to bottom, dodgerblue, CornFlowerBlue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to bottom, dodgerblue, CornFlowerBlue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, dodgerblue, CornFlowerBlue);
+    background: -webkit-linear-gradient(135deg, CornFlowerBlue, #736EFE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(135deg, CornFlowerBlue, #736EFE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(135deg, CornFlowerBlue, #736EFE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(135deg, CornFlowerBlue, #736EFE);
     
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -598,6 +620,15 @@ a.text-card {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
+
+.sekai0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
 
 
 .irena {
@@ -632,6 +663,14 @@ a.text-card {
 .irena0:hover .irena {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+}
+
+.irena0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
 }
 
 
@@ -669,6 +708,15 @@ a.text-card {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
+
+.viish0:active {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
 
 
 .clear {
@@ -792,7 +840,6 @@ a.text-card {
     }
 
     
-    
     .echo {
         -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
         filter: sepia(0%);
@@ -804,8 +851,12 @@ a.text-card {
         filter: sepia(0%);
     }
 
+    .echo0:active .site-card {
+        color: ghostwhite;
+        background-color: orangered;
+    }
     
-    
+  
     .dhaw {
         -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
         filter: grayscale(0%);
@@ -843,7 +894,8 @@ a.text-card {
         filter: grayscale(0%);
     }
     
-          
+      
+    
     .irena {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
@@ -856,6 +908,7 @@ a.text-card {
     }
     
     
+    
     .viish {
         -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
         filter: grayscale(0%);
@@ -865,7 +918,7 @@ a.text-card {
         background-size: 35%;
         -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
         filter: grayscale(0%);
-    }
+    }   
     
 }
 
@@ -988,6 +1041,16 @@ a.text-card {
         margin: 50px 10%;
     }
     
+    .slideme-left {
+        left: 0px;
+        opacity: 1;
+    }
+
+    .slideme-right {
+        right: 0px;
+        opacity: 1;
+    }
+    
     .card {
         width: 80%;
         min-height: 620px;
@@ -1029,6 +1092,16 @@ a.text-card {
     
     #about {
         margin: 50px 10%;
+    }
+    
+    .slideme-left {
+        left: 0px;
+        opacity: 1;
+    }
+
+    .slideme-right {
+        right: 0px;
+        opacity: 1;
     }
     
     .card {

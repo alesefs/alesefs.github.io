@@ -1,3 +1,4 @@
+<!--
 var txt = "";        
 if (navigator.userAgent.match(/Windows Phone|IEMobile|Lumia/i)) {
     txt = "WinPhone";
@@ -146,3 +147,4 @@ $(document).ready(function() {
     checkWidth();
     $(window).resize(checkWidth);//usar pra checar as mudanças de tela
 });
+-->

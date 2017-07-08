@@ -36,7 +36,9 @@
         "insta": "Minha página no Instagram",
         "linked": "Minha página no Linkedin",
         "mail": "Meu E-Mail - alesefs@gmail.com",
-        "end": "Direitos Alessandro Emanuel. Aqui é o fim da página"
+        "end": "Direitos Alessandro Emanuel. Aqui é o fim da página",
+        "noscript": "Seu navegador não suporta JavaScript!",
+        "nojs": "Seu navegador não suporta JavaScript!"
     }
     ,"works": {
         "echo": "Echo Studio Games. Minha função: Desenvolvedor Web e de games. Minhas tarefas: desenvolver games em AS3-flixel e Java-Android. Foco: games para Web, android e blackberry. clique para abrir o site Echo Studio.",

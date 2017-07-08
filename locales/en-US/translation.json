@@ -36,7 +36,9 @@
         "insta": "My Instagram page",
         "linked": "My Linkedin page",
         "mail": "My E-Mail - alesefs@gmail.com",
-        "end": "Rights Alessandro Emanuel. Here is the end of page"
+        "end": "Rights Alessandro Emanuel. Here is the end of page",
+        "noscript": "Your browser does not support JavaScript!",
+        "nojs": "Your browser does not support JavaScript!"
     }
     ,"works": {
         "echo": "Echo Studio Games. My role: Web and Game Developer. My tasks: develop games in AS3-flixel and Java-Android. Focus: Web, android and blackberry games. click for open Echo Studio's site.",
