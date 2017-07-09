@@ -97,7 +97,7 @@ $(document).ready(function() {
     
 
     //scroll animate
-    $(window).scroll( function(){ 
+    $(window).scroll( function(){    
         $('.slideme-left').each( function(i){
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var top_of_object = $(this).position().top;

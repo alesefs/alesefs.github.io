@@ -42,19 +42,17 @@
     
     <body class="fadeIn">
       
+        
         <div id="hideAll" class="section-title">
-            <div id="msg" data-i18n="[title]title.loading" title="">
-                <span data-i18n="title.loadtxt">CARREGANDO, POR FAVOR AGUARDE...</span>
-                <br />
-                <noscript>
-                    <span data-i18n="[title]title.noscript" title="">
-                        <span data-i18n="title.nojs">
-                            Seu navegador não suporta JavaScript ou está com o JavaScript bloqueado!
-                        </span>
-                    </span>
-                </noscript>
-            </div>
+            <div id="msg">Loading...</div>
+            <div class="img-loading" data-i18n="[title]title.loading" title=""></div>
+
+            <noscript style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; margin: 0; padding: 0; background: #F8DC3D  url(imgs/grain.png); z-index: 100;">
+                <div class="img-nojs" data-i18n="[title]title.noscript" title=""></div>
+            </noscript>
         </div>
+        
+        
         
         <div id="ip-head"></div>  
         <div class="clear"></div> 
