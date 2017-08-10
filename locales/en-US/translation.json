@@ -4,6 +4,7 @@
     }
     ,"section":{
         "intro": "ABOUT",
+        "games": "MY GAMES",
         "works": "WORKS"
     }
     ,"about": {
@@ -15,6 +16,13 @@
         "others": "Others skills: ",
         "todo": "2D/3D animations, UI/UX design and some brandings.",
         "contact": "CONTACT ME:"    
+    }
+    ,"landpage": {
+        "encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game. Have a good time! Or rather ... Fitting!",
+        "desc_encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game.",
+        "desc_encaixeFim": "Have a good time! Or rather ... Fitting!",
+        "encaixeGoogle": "Download Encaixe! on the Google Play",
+        "encaixeApple": "Download Encaixe! on the App Store"
     }
     ,"card": {
         "role": "ROLE",

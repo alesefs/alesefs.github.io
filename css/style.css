@@ -384,6 +384,203 @@ hr {
 }
 
 
+
+
+
+
+
+
+.games {
+    position: relative;
+    width: 90%;
+    height: 650px;
+    margin: 30px 5%;   
+    background-color: #EBEBEB;    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    text-align: center; 
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    float: left;
+}
+
+.game-banner {
+    position: relative;    
+    width: 100%;
+    height: 250px;   
+    box-sizing: border-box;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#banner-encaixe { 
+    background: url(../imgs/encaixeBG.png) repeat;
+}
+
+#logo-encaixe { 
+    position: absolute;
+    background: url(../imgs/title-encaixe.png) center no-repeat;
+    background-size: 50%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.game-content {
+    position: relative;   
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.left-game-content {
+    position: relative;    
+    width: 35%;
+    height: 100%;    
+    float: left;  
+}
+
+.slide-show {
+    position: absolute;    
+    width: 200px;
+    height: 350px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;   
+}
+
+#encaixe-screen {
+    background: url(../imgs/encaixe-screen.gif) center no-repeat;
+    background-size: 100%;
+}
+
+.right-game-content {
+    position: relative;   
+    width: 65%;
+    height: 100%;   
+    float: left;   
+}
+
+.top-cont-game {
+    position: relative;   
+    width: 100%;
+    height: 100px;   
+    float: left;   
+}
+
+#encaixe-icon {
+    position: absolute;    
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/encaixe-icon.png);
+    background-size: 100%;
+}
+
+.mid-cont-game {
+    position: relative;   
+    width: 100%;
+    float: left;   
+}
+
+.title-game {
+    margin: 0 10%;
+    font-family: 'Lato', sans-serif; font-weight: normal;
+    font-size: 24px;
+    color: #171717;
+}
+
+.bot-cont-game {
+    position: relative;   
+    width: 100%;
+    height: 200px;   
+    float: left;   
+}
+
+.desc-game {
+    margin: 2.5% 10%;
+    text-align: left;
+    
+    font-family: 'Lato', sans-serif; font-weight: lighter;
+    font-size: 18px;
+    color: #171717;
+}
+
+.game-footer {
+    position: relative;  
+    width: 80%;
+    height: 100px;
+    margin: 0 10%;
+}
+
+
+.two-sides {
+    position: relative;  
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.google {
+    position: absolute;    
+    width: 210px;
+    height: 80px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/D_google.png) center no-repeat;
+    background-size: 100%;
+}
+
+.apple {
+    position: absolute;    
+    width: 210px;
+    height: 80px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/D_apple.png) center no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card {
     position: relative;
     width: 45%;
@@ -894,6 +1091,10 @@ a.text-card {
     #about {
         margin: 50px 15%;
     }
+    
+    
+    
+    
 
     .card {
         width: 70%;
@@ -986,6 +1187,15 @@ a.text-card {
         background-size: 35%;
     }
     
+    #logo-encaixe { 
+        background-size: 75%;
+    }
+
+    .google, .apple {
+        width: 150px;
+        height: 70px;
+    }
+    
     .section-title {
         margin-left: 15%;
     }
@@ -1015,6 +1225,41 @@ a.text-card {
         max-height: 35px;
         margin: 10px 5%;
     }
+    
+    
+    .games {
+        height: 1000px;
+    }
+    
+    .game-banner {
+        height: 200px;   
+    }
+    
+    #logo-encaixe { 
+        background-size: 75%;
+    }
+    
+    .game-content {
+        height: 800px;
+    }
+    
+    .left-game-content {
+        width: 100%;
+        height: 370px;    
+        float: left;
+    }
+    
+    .right-game-content {
+        width: 100%;
+        height: 490px;   
+        float: left;   
+    }
+    
+    .google, .apple {
+        width: 180px;
+        height: 80px;
+    }
+  
     
     .rectL {
         width: 50px;
@@ -1067,6 +1312,27 @@ a.text-card {
         margin: 50px 10%;
     }
     
+    
+    .games {
+        height: 1100px;
+    }
+    
+    .game-banner {
+        height: 200px;   
+    }
+    
+    #logo-encaixe { 
+        background-size: 85%;
+    }
+    
+    .two-sides {
+        position: relative;  
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+    
+    
     .card {
         width: 80%;
         min-height: 620px;
@@ -1112,6 +1378,28 @@ a.text-card {
     #about {
         margin: 50px 10%;
     }
+    
+    
+    .games {
+        height: 1100px;
+    }
+    
+    .game-banner {
+        height: 200px;   
+    }
+    
+    #logo-encaixe { 
+        background-size: 85%;
+    }
+    
+    .two-sides {
+        position: relative;  
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+    
+    
     
     .slideme-left {
         left: 0px;
@@ -1169,6 +1457,28 @@ a.text-card {
     #about {
         margin: 50px 10%;
     }
+    
+    
+    .games {
+        height: 1100px;
+    }
+    
+    .game-banner {
+        height: 200px;   
+    }
+    
+    #logo-encaixe { 
+        background-size: 85%;
+    }
+    
+    .two-sides {
+        position: relative;  
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+    
+    
     
     .slideme-left {
         left: 0px;

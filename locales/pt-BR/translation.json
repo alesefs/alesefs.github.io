@@ -3,7 +3,8 @@
         "name" : "i18next"
     }
     ,"section": {
-        "intro": "SOBRE",
+        "intro": "OUTROS SOBRE",
+        "games": "MEUS JOGOS",
         "works": "TRABALHOS"
     }
     ,"about": {
@@ -15,6 +16,13 @@
         "others": "Outras habilidades: ",
         "todo": "Animações em 2D/3D, UI/UX Design e alguns brandings.",
         "contact": "CONTATE-ME:"
+    }
+    ,"landpage": {
+        "encaixe": "Encaixe! Conecte os objetos em um jogo dinâmico, colorido e cheio de formas. A cada forma que aparece deslizando é um novo desafio, seja rápido e atento ou será o fim de jogo. Divirta-se! ou melhor... Encaixe!",
+        "desc_encaixe": "Encaixe! Conecte os objetos em um jogo dinâmico, colorido e cheio de formas. A cada forma que aparece deslizando é um novo desafio, seja rápido e atento ou será o fim de jogo.",
+        "desc_encaixeFim": "Divirta-se! ou melhor... Encaixe!",
+        "encaixeGoogle": "Download Encaixe! na Google Play",
+        "encaixeApple": "Download Encaixe! na App Store"
     }
     ,"card": {
         "role": "FUNÇÃO",
