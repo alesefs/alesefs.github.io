@@ -3,9 +3,9 @@
         "name" : "i18next"
     }
     ,"section": {
-        "intro": "OUTROS SOBRE",
+        "intro": "SOBRE",
         "games": "MEUS JOGOS",
-        "works": "TRABALHOS"
+        "works": "OUTROS TRABALHOS"
     }
     ,"about": {
         "hello": "Olá mundo! Eu sou",
