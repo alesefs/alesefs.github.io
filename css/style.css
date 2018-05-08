@@ -395,7 +395,7 @@ hr {
     width: 90%;
     height: 650px;
     margin: 30px 5%;   
-    background-color: #EBEBEB;    
+    /*background-color: #EBEBEB;*/
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     text-align: center; 
     box-sizing: border-box;
@@ -419,9 +419,24 @@ hr {
     background: url(../imgs/encaixeBG.png) repeat;
 }
 
+#banner-tapple { 
+    background: url(../imgs/tappleBG.png) repeat;
+}
+
 #logo-encaixe { 
     position: absolute;
     background: url(../imgs/title-encaixe.png) center no-repeat;
+    background-size: 50%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo-tapple { 
+    position: absolute;
+    background: url(../imgs/title-tapple.png) center no-repeat;
     background-size: 50%;
     margin: auto;
     top: 0;
@@ -462,10 +477,19 @@ hr {
     border-radius: 10px;   
 }
 
+
 #encaixe-screen {
     background: url(../imgs/encaixe-screen.gif) center no-repeat;
     background-size: 100%;
 }
+
+
+#tapple-screen {
+    background: url(../imgs/tapple-screen.gif) center no-repeat;
+    background-size: 100%;
+}
+
+
 
 .right-game-content {
     position: relative;   
@@ -481,6 +505,8 @@ hr {
     float: left;   
 }
 
+
+
 #encaixe-icon {
     position: absolute;    
     width: 64px;
@@ -495,6 +521,23 @@ hr {
     background-size: 100%;
 }
 
+
+#tapple-icon {
+    position: absolute;    
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/tapple-icon.png);
+    background-size: 100%;
+}
+
+
+
 .mid-cont-game {
     position: relative;   
     width: 100%;
@@ -505,7 +548,7 @@ hr {
     margin: 0 10%;
     font-family: 'Lato', sans-serif; font-weight: normal;
     font-size: 24px;
-    color: #171717;
+    /*color: #171717;*/
 }
 
 .bot-cont-game {
@@ -521,7 +564,7 @@ hr {
     
     font-family: 'Lato', sans-serif; font-weight: lighter;
     font-size: 18px;
-    color: #171717;
+    /*color: #171717;*/
 }
 
 .game-footer {
@@ -564,6 +607,20 @@ hr {
     right: 0;
     
     background: url(../imgs/D_apple.png) center no-repeat;
+    background-size: 100%;
+}
+
+.apple-soon {
+    position: absolute;    
+    width: 210px;
+    height: 80px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/L_apple.png) center no-repeat;
     background-size: 100%;
 }
 
@@ -1191,7 +1248,7 @@ a.text-card {
         background-size: 75%;
     }
 
-    .google, .apple {
+    .google, .apple, .apple-soon {
         width: 150px;
         height: 70px;
     }
@@ -1255,7 +1312,7 @@ a.text-card {
         float: left;   
     }
     
-    .google, .apple {
+    .google, .apple, .apple-soon {
         width: 180px;
         height: 80px;
     }

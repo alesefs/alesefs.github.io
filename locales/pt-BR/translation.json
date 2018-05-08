@@ -22,7 +22,13 @@
         "desc_encaixe": "Encaixe! Conecte os objetos em um jogo dinâmico, colorido e cheio de formas. A cada forma que aparece deslizando é um novo desafio, seja rápido e atento ou será o fim de jogo.",
         "desc_encaixeFim": "Divirta-se! ou melhor... Encaixe!",
         "encaixeGoogle": "Download Encaixe! na Google Play",
-        "encaixeApple": "Download Encaixe! na App Store"
+        "encaixeApple": "Download Encaixe! na App Store",
+        
+        "tapple": "Tapple! Sinta-se pulando amarelinha com os dedos. Tapple é um jogo que desafia sua concentração e velocidade de reação.",
+        "desc_tapple": "Tapple! Sinta-se pulando amarelinha com os dedos. Tapple é um jogo que desafia sua concentração e velocidade de reação.",
+        "desc_tappleFim": "Divirta-se! ou melhor... Tapple!",
+        "tappleGoogle": "Download Tapple! na Google Play",
+        "tappleApple": "Em breve, Tapple! na App Store"
     }
     ,"card": {
         "role": "FUNÇÃO",
