@@ -15,19 +15,20 @@
         "main": "Main skills: ",
         "others": "Others skills: ",
         "todo": "2D/3D animations, UI/UX design and some brandings.",
-        "contact": "CONTACT ME:"    
+        "contact": "CONTACT ME:"
     }
     ,"landpage": {
         "encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game. Have a good time! Or rather ... Fitting!",
         "desc_encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game.",
         "desc_encaixeFim": "Have a good time! Or rather ... Fitting!",
         "encaixeGoogle": "Download Encaixe! on the Google Play",
-        "encaixeApple": "Download Encaixe! on the App Store",       
+        "encaixeApple": "Download Encaixe! on the App Store",
+
         "tapple": "Tapple! Feel jumping hopscotch with your fingers. Tapple is a game  that challenges your concentration and reaction speed.",
         "desc_tapple": "Tapple! Feel jumping hopscotch with your fingers. Tapple is a game  that challenges your concentration and reaction speed.",
         "desc_tappleFim": "Have a good time! Or rather ... Tapple!",
         "tappleGoogle": "Download Tapple! on the Google Play",
-        "tappleApple": "Coming soon, Tapple! on the App Store"
+        "tappleApple": "Download Tapple! on the App Store"
     }
     ,"card": {
         "role": "ROLE",
@@ -37,7 +38,7 @@
         "dhaw": "Dev games in AS3 Flixel, HTML5 Phaser.",
         "gluup": "Dev games in Java Android for aid to physiotherapy.",
         "sekai": "Dev games in AS3 Flixel",
-        "irena1": "Intern / Software Engineer",
+        "irena1": "Intern / Technologist Engineer",
         "irena2": "Fill databases, assistance to the design and operation of the product."
     }
     ,"title": {
