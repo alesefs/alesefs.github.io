@@ -18,12 +18,12 @@
         "contact": "CONTACT ME:"
     }
     ,"landpage": {
-        "encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game. Have a good time! Or rather ... Fitting!",
-        "desc_encaixe": "Encaixe! Connect the objects in a dynamic, colorful and full of shapes game. Every shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game.",
-        "desc_encaixeFim": "Have a good time! Or rather ... Fitting!",
-        "encaixeGoogle": "Download Encaixe! on the Google Play",
-        "encaixeApple": "Download Encaixe! on the App Store",
-
+        "combine": "Combine is a dynamic, colorful and full of shapes game.",
+        "desc_combine": "Combine the objects in a dynamic, colorful and full of shapes game. Each shape that appears sliding is a new challenge, be quick and attentive or it will be the end of the game.",
+        "desc_combineFim": "Have a good time! Or rather ... Combine!",
+        "combineGoogle": "Download Combine! on the Google Play",
+        "combineApple": "Download Combine! on the App Store",
+        
         "tapple": "Tapple! Feel jumping hopscotch with your fingers. Tapple is a game  that challenges your concentration and reaction speed.",
         "desc_tapple": "Tapple! Feel jumping hopscotch with your fingers. Tapple is a game  that challenges your concentration and reaction speed.",
         "desc_tappleFim": "Have a good time! Or rather ... Tapple!",
@@ -59,7 +59,6 @@
         "dhaw": "DHAW. My role: Web and Game Developer. My tasks: develop games in AS3-flixel and HTML5-Phaser. Focus: Web games. click for open dhaw's site.",
         "gluup": "Gluup. My role: Game Developer. My tasks: develop games in java-android for aid to physiotherapy. Focus: mobile game. click for open gluup's site.",
         "sekai": "The Sekai. My role: Web and Game Developer. My tasks: develop games in AS3-flixel. Focus: Web games. click for open the sekai's site.",
-        "viish": "Viish Apps. My role: C.E.O and mult task. My tasks: develop games and apps for Web and Mobile. Focus: mobile games and apps. click for open viishapps's site.",
         "irena": "iRena app. My role: Intern - Software Engineer. My tasks: Fill databases, assistance to the design and operation of the product. Focus: Mobile apps for Android and iOS about soccer. click for open irena's site."
     }
 }

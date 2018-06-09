@@ -415,23 +415,46 @@ hr {
     border-radius: 10px 10px 0 0;
 }
 
-#banner-encaixe { 
-    background: url(../imgs/encaixeBG.png) repeat;
+
+
+#banner-combine { 
+    background: url(../imgs/combineBG.png) repeat;
 }
 
-#banner-tapple { 
-    background: url(../imgs/tappleBG.png) repeat;
-}
-
-#logo-encaixe { 
+#logo-combine { 
     position: absolute;
-    background: url(../imgs/title-encaixe.png) center no-repeat;
+    background: url(../imgs/title-combine.png) center no-repeat;
     background-size: 50%;
     margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+#combine-screen {
+    background: url(../imgs/combine-screen.gif) center no-repeat;
+    background-size: 100%;
+}
+
+#combine-icon {
+    position: absolute;    
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/combine-icon.png);
+    background-size: 100%;
+}
+
+
+
+#banner-tapple { 
+    background: url(../imgs/tappleBG.png) repeat;
 }
 
 #logo-tapple { 
@@ -444,6 +467,28 @@ hr {
     left: 0;
     right: 0;
 }
+
+#tapple-screen {
+    background: url(../imgs/tapple-screen.gif) center no-repeat;
+    background-size: 100%;
+}
+
+#tapple-icon {
+    position: absolute;    
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/tapple-icon.png);
+    background-size: 100%;
+}
+
+
+
 
 .game-content {
     position: relative;   
@@ -477,20 +522,6 @@ hr {
     border-radius: 10px;   
 }
 
-
-#encaixe-screen {
-    background: url(../imgs/encaixe-screen.gif) center no-repeat;
-    background-size: 100%;
-}
-
-
-#tapple-screen {
-    background: url(../imgs/tapple-screen.gif) center no-repeat;
-    background-size: 100%;
-}
-
-
-
 .right-game-content {
     position: relative;   
     width: 65%;
@@ -504,38 +535,6 @@ hr {
     height: 100px;   
     float: left;   
 }
-
-
-
-#encaixe-icon {
-    position: absolute;    
-    width: 64px;
-    height: 64px;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    background: url(../imgs/encaixe-icon.png);
-    background-size: 100%;
-}
-
-
-#tapple-icon {
-    position: absolute;    
-    width: 64px;
-    height: 64px;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    background: url(../imgs/tapple-icon.png);
-    background-size: 100%;
-}
-
 
 
 .mid-cont-game {
