@@ -489,6 +489,42 @@ hr {
 
 
 
+#banner-futgol { 
+    background: url(../imgs/futgolBG.png) repeat;
+}
+
+#logo-futgol { 
+    position: absolute;
+    background: url(../imgs/title-futgol.png) center no-repeat;
+    background-size: 50%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#futgol-screen {
+    background: url(../imgs/futgol-screen.gif) center no-repeat;
+    background-size: 100%;
+}
+
+#futgol-icon {
+    position: absolute;    
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: url(../imgs/futgol-icon.png);
+    background-size: 100%;
+}
+
+
+
 
 .game-content {
     position: relative;   
