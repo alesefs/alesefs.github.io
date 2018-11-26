@@ -28,7 +28,13 @@
         "desc_tapple": "Tapple! Feel jumping hopscotch with your fingers. Tapple is a game  that challenges your concentration and reaction speed.",
         "desc_tappleFim": "Have a good time! Or rather ... Tapple!",
         "tappleGoogle": "Download Tapple! on the Google Play",
-        "tappleApple": "Download Tapple! on the App Store"
+        "tappleApple": "Download Tapple! on the App Store",
+
+        "futgol": "Be the greatest striker of all time. Make countless goals on Futgol.",
+        "desc_futgol": "Be the greatest striker of all time. Make countless goals on Futgol.",
+        "desc_futgolFim": "Buy fields, balls, defenders, to improve your game.",
+        "futgolGoogle": "Download Futgol on Google Play",
+        "futgolApple": "Coming soon in the App Store"
     }
     ,"card": {
         "role": "ROLE",
