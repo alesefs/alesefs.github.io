@@ -21,14 +21,20 @@
         "combine": "Combine é um jogo dinâmico, colorido e cheio de formas.",
         "desc_combine": "Combine os objetos em um jogo dinâmico, colorido e cheio de formas. A cada forma que aparece deslizando é um novo desafio, seja rápido e atento ou será o fim de jogo.",
         "desc_combineFim": "Divirta-se! Ou melhor ... Combine!",
-        "combineGoogle": "Download Combine! na Google Play",
-        "combineApple": "Download Combine! na App Store",
+        "combineGoogle": "Baixe Combine! na Google Play",
+        "combineApple": "Baixe Combine! na App Store",
 
         "tapple": "Tapple! Sinta-se pulando amarelinha com os dedos. Tapple é um jogo que desafia sua concentração e velocidade de reação.",
         "desc_tapple": "Tapple! Sinta-se pulando amarelinha com os dedos. Tapple é um jogo que desafia sua concentração e velocidade de reação.",
         "desc_tappleFim": "Divirta-se! ou melhor... Tapple!",
-        "tappleGoogle": "Download Tapple! na Google Play",
-        "tappleApple": "Download Tapple! na App Store"
+        "tappleGoogle": "Baixe Tapple! na Google Play",
+        "tappleApple": "Baixe Tapple! na App Store",
+
+        "futgol": "Seja o maior goleador de todos os tempos. Faça inúmeros gols no Futgol.",
+        "desc_futgol": "Seja o maior goleador de todos os tempos. Faça inúmeros gols no Futgol.",
+        "desc_futgolFim": "Compre campos, bolas, defensores, para melhorar seu jogo.",
+        "futgolGoogle": "Baixe Futgol na Google Play",
+        "futgolApple": "Em breve Futgol na App Store"
     }
     ,"card": {
         "role": "FUNÇÃO",
