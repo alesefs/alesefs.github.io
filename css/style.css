@@ -66,6 +66,7 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
+    background: rgba(255, 69, 0, 0.1);
 }
  
 body::-webkit-scrollbar-thumb {
@@ -748,6 +749,7 @@ a.text-card {
 }
 
 .fade {
+    transition: background 0.5s ease-out;
     -webkit-transition: background 0.5s ease-out;
     -moz-transition: background 0.5s ease-out;
     -o-transition: background 0.5s ease-out;
