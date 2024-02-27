@@ -1107,7 +1107,7 @@ a.text-card {
     transition:all .3s linear;
 }
 
-#footer a:hover, .contact-text a:hover {
+#footer a:hover, .contact-text a:hover, .portifolio-online a:hover {
     text-decoration: none;
     color: #333333;
 }
