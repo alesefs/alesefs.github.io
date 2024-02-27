@@ -1097,7 +1097,7 @@ a.text-card {
     font-weight: 400;
 }
 
-#footer a, .contact-text a {
+#footer a, .contact-text a, .portifolio-online a {
     text-decoration: none;
     color: orangered;/*#333333;*/
     
